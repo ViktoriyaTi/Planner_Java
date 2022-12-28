@@ -20,8 +20,8 @@ public class Main {
         pageToCsv.importFile("file.txt");
 
         Event eventOne = new Event(1, "31.12.2022", "New Year", "Petrov F.P.");
-        Planner<Event> planEvant = new Planner<>();
-        planEvant.append(eventOne);
+        Planner<Event> planEvent = new Planner<>();
+        planEvent.append(eventOne);
 
         // for (int i = 0; i < plan.count(); i++) {
         // System.out.println(plan.get(i));
