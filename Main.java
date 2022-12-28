@@ -13,9 +13,9 @@ public class Main {
         planTask.append(taskFour);
 
         ExportToCSV<Task> eCsv = new ExportToCSV<>();
-        eCsv.export("test.csv", planTask);
+        eCsv.export("fileTaskCSV.csv", planTask);
         ExportToTXT<Task> eTxt = new ExportToTXT<>();
-        eTxt.export("file.txt", planTask);
+        eTxt.export("fileTaskTXT.txt", planTask);
         ImportFile<Task> pageToCsv = new ImportFile<>();
         pageToCsv.importFile("file.txt");
 
